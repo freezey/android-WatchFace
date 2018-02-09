@@ -33,12 +33,17 @@ import android.support.wearable.complications.rendering.ComplicationDrawable;
 import android.support.wearable.watchface.CanvasWatchFaceService;
 import android.support.wearable.watchface.WatchFaceService;
 import android.support.wearable.watchface.WatchFaceStyle;
+import android.text.format.DateFormat;
 import android.util.Log;
 import android.util.SparseArray;
 import android.view.SurfaceHolder;
 import com.example.android.wearable.watchface.R;
 import com.example.android.wearable.watchface.config.AnalogComplicationConfigRecyclerViewAdapter;
+
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
 import java.util.TimeZone;
 import java.util.concurrent.TimeUnit;
 
@@ -136,6 +141,8 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
 
         private static final int SHADOW_RADIUS = 6;
 
+        private static final String COLON_STRING = ":";
+
         private Calendar mCalendar;
         private boolean mRegisteredTimeZoneReceiver = false;
         private boolean mMuteMode;
@@ -160,6 +167,18 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
         private Paint mTickAndCirclePaint;
 
         private Paint mBackgroundPaint;
+
+        private Paint mColonPaint;
+        private float mColonWidth;
+        private boolean mShouldDrawColons;
+
+        Date mDate;
+        SimpleDateFormat mDayOfWeekFormat;
+        java.text.DateFormat mDateFormat;
+
+        private float mXOffset;
+        private float mYOffset;
+
 
         /* Maps active complication ids to the data for that complication. Note: Data will only be
          * present if the user has chosen a provider via the settings activity for the watch face.
@@ -207,6 +226,10 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
                         }
                     }
                 };
+
+        private String formatTwoDigitNumber(int hour) {
+            return String.format("%02d", hour);
+        }
 
         @Override
         public void onCreate(SurfaceHolder holder) {
@@ -708,6 +731,54 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
 
             /* Restore the canvas' original orientation. */
             canvas.restore();
+
+
+            float hourxOffset = 80;
+            float houryOffset = 150;
+            String hourString;
+            int hour = mCalendar.get(Calendar.HOUR);
+            if (hour == 0) {
+                hour = 12;
+            }
+            hourString = String.valueOf(hour);
+            mHourPaint.setTextSize(80);
+            canvas.drawText(hourString, hourxOffset, houryOffset, mHourPaint);
+
+            hourxOffset += mHourPaint.measureText(hourString);
+
+            // In ambient and mute modes, always draw the first colon. Otherwise, draw the
+            // first colon for the first half of each second.
+            mShouldDrawColons = (System.currentTimeMillis() % 2000) < 1000;
+            if (isInAmbientMode() || mShouldDrawColons) {
+                canvas.drawText(COLON_STRING, hourxOffset, houryOffset, mHourPaint);
+            }
+            hourxOffset += mHourPaint.measureText(COLON_STRING);
+//
+            // Draw the minutes.
+            String minuteString = formatTwoDigitNumber(mCalendar.get(Calendar.MINUTE));
+            canvas.drawText(minuteString, hourxOffset, houryOffset, mHourPaint);
+
+
+            mHourPaint.setTextSize(40);
+            mDate = new Date();
+            long now = System.currentTimeMillis();
+            mDate.setTime(now);
+            mDayOfWeekFormat = new SimpleDateFormat("EEEE", Locale.getDefault());
+            mDayOfWeekFormat.setCalendar(mCalendar);
+            mDateFormat = new SimpleDateFormat("MMM d", Locale.getDefault());
+            mDateFormat.setCalendar(mCalendar);
+
+            hourxOffset = 160 - (mHourPaint.measureText(mDayOfWeekFormat.format(mDate)) / 2);
+            houryOffset += 40;
+
+            canvas.drawText(
+                    mDayOfWeekFormat.format(mDate),
+                    hourxOffset, houryOffset, mHourPaint);
+            // Date
+            houryOffset += 40;
+            canvas.drawText(
+                    mDateFormat.format(mDate),
+                    hourxOffset, houryOffset, mHourPaint);
         }
 
         @Override

@@ -49,7 +49,7 @@ import java.util.concurrent.TimeUnit;
 
 /** Demonstrates two simple complications in a watch face. */
 public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
-    private static final String TAG = "AnalogWatchFace";
+    private static final String TAG = "FreezeyFace";
 
     // Unique IDs for each complication. The settings activity that supports allowing users
     // to select their complication data provider requires numbers to be >= 0.
@@ -137,8 +137,6 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
         private static final float MINUTE_STROKE_WIDTH = 3f;
         private static final float SECOND_TICK_STROKE_WIDTH = 2f;
 
-        private static final float CENTER_GAP_AND_CIRCLE_RADIUS = 4f;
-
         private static final int SHADOW_RADIUS = 6;
 
         private static final String COLON_STRING = ":";
@@ -150,10 +148,6 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
         private float mCenterX;
         private float mCenterY;
 
-        private float mSecondHandLength;
-        private float mMinuteHandLength;
-        private float mHourHandLength;
-
         // Colors for all hands (hour, minute, seconds, ticks) based on photo loaded.
         private int mWatchHandAndComplicationsColor;
         private int mWatchHandHighlightColor;
@@ -164,17 +158,16 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
         private Paint mHourPaint;
         private Paint mMinutePaint;
         private Paint mSecondAndHighlightPaint;
-        private Paint mTickAndCirclePaint;
+        private Paint mOuterDatesPaint;
 
         private Paint mBackgroundPaint;
 
-        private Paint mColonPaint;
-        private float mColonWidth;
         private boolean mShouldDrawColons;
 
-        Date mDate;
-        SimpleDateFormat mDayOfWeekFormat;
-        java.text.DateFormat mDateFormat;
+        private Date mDate;
+        private SimpleDateFormat mDayOfWeekFormat;
+        private java.text.DateFormat mDateFormat;
+        private java.text.DateFormat mCurrentDateFormat;
 
         private float mXOffset;
         private float mYOffset;
@@ -343,12 +336,13 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
             mSecondAndHighlightPaint.setStrokeCap(Paint.Cap.ROUND);
             mSecondAndHighlightPaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mWatchHandShadowColor);
 
-            mTickAndCirclePaint = new Paint();
-            mTickAndCirclePaint.setColor(mWatchHandAndComplicationsColor);
-            mTickAndCirclePaint.setStrokeWidth(SECOND_TICK_STROKE_WIDTH);
-            mTickAndCirclePaint.setAntiAlias(true);
-            mTickAndCirclePaint.setStyle(Paint.Style.STROKE);
-            mTickAndCirclePaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mWatchHandShadowColor);
+            mOuterDatesPaint = new Paint();
+            mOuterDatesPaint.setColor(mWatchHandAndComplicationsColor);
+            mOuterDatesPaint.setStrokeWidth(SECOND_TICK_STROKE_WIDTH);
+            mOuterDatesPaint.setAntiAlias(true);
+            mOuterDatesPaint.setStyle(Paint.Style.STROKE);
+            mOuterDatesPaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mWatchHandShadowColor);
+            mOuterDatesPaint.setTextSize(15);
         }
 
         /* Sets active/ambient mode colors for all complications.
@@ -488,17 +482,17 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
                 mHourPaint.setColor(Color.WHITE);
                 mMinutePaint.setColor(Color.WHITE);
                 mSecondAndHighlightPaint.setColor(Color.WHITE);
-                mTickAndCirclePaint.setColor(Color.WHITE);
+                mOuterDatesPaint.setColor(Color.WHITE);
 
                 mHourPaint.setAntiAlias(false);
                 mMinutePaint.setAntiAlias(false);
                 mSecondAndHighlightPaint.setAntiAlias(false);
-                mTickAndCirclePaint.setAntiAlias(false);
+                mOuterDatesPaint.setAntiAlias(false);
 
                 mHourPaint.clearShadowLayer();
                 mMinutePaint.clearShadowLayer();
                 mSecondAndHighlightPaint.clearShadowLayer();
-                mTickAndCirclePaint.clearShadowLayer();
+                mOuterDatesPaint.clearShadowLayer();
 
             } else {
 
@@ -506,19 +500,19 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
 
                 mHourPaint.setColor(mWatchHandAndComplicationsColor);
                 mMinutePaint.setColor(mWatchHandAndComplicationsColor);
-                mTickAndCirclePaint.setColor(mWatchHandAndComplicationsColor);
+                mOuterDatesPaint.setColor(mWatchHandAndComplicationsColor);
 
                 mSecondAndHighlightPaint.setColor(mWatchHandHighlightColor);
 
                 mHourPaint.setAntiAlias(true);
                 mMinutePaint.setAntiAlias(true);
                 mSecondAndHighlightPaint.setAntiAlias(true);
-                mTickAndCirclePaint.setAntiAlias(true);
+                mOuterDatesPaint.setAntiAlias(true);
 
                 mHourPaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mWatchHandShadowColor);
                 mMinutePaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mWatchHandShadowColor);
                 mSecondAndHighlightPaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mWatchHandShadowColor);
-                mTickAndCirclePaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mWatchHandShadowColor);
+                mOuterDatesPaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mWatchHandShadowColor);
             }
         }
 
@@ -548,13 +542,6 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
              */
             mCenterX = width / 2f;
             mCenterY = height / 2f;
-
-            /*
-             * Calculate lengths of different hands based on watch screen size.
-             */
-            mSecondHandLength = (float) (mCenterX * 0.875);
-            mMinuteHandLength = (float) (mCenterX * 0.75);
-            mHourHandLength = (float) (mCenterX * 0.5);
 
             /*
              * Calculates location bounds for right and left circular complications. Please note,
@@ -623,7 +610,7 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
                 int width = canvas.getWidth();
                 int height = canvas.getHeight();
 
-                canvas.drawCircle(width / 2, height - 40, 10, mTickAndCirclePaint);
+                canvas.drawCircle(width / 2, height - 40, 10, mOuterDatesPaint);
 
                 /*
                  * Ensure center highlight circle is only drawn in interactive mode. This ensures
@@ -658,83 +645,59 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
         }
 
         private void drawWatchFace(Canvas canvas) {
-            /*
-             * Draw ticks. Usually you will want to bake this directly into the photo, but in
-             * cases where you want to allow users to select their own photos, this dynamically
-             * creates them on top of the photo.
-             */
-            float innerTickRadius = mCenterX - 10;
-            float outerTickRadius = mCenterX;
-            for (int tickIndex = 0; tickIndex < 12; tickIndex++) {
-                float tickRot = (float) (tickIndex * Math.PI * 2 / 12);
-                float innerX = (float) Math.sin(tickRot) * innerTickRadius;
-                float innerY = (float) -Math.cos(tickRot) * innerTickRadius;
-                float outerX = (float) Math.sin(tickRot) * outerTickRadius;
-                float outerY = (float) -Math.cos(tickRot) * outerTickRadius;
-                canvas.drawLine(
-                        mCenterX + innerX,
-                        mCenterY + innerY,
-                        mCenterX + outerX,
-                        mCenterY + outerY,
-                        mTickAndCirclePaint);
-            }
 
             /*
-             * These calculations reflect the rotation in degrees per unit of time, e.g.,
-             * 360 / 60 = 6 and 360 / 12 = 30.
+             * Draw the day and dates across the top edge of the circle
              */
-            final float seconds =
-                    (mCalendar.get(Calendar.SECOND) + mCalendar.get(Calendar.MILLISECOND) / 1000f);
-            final float secondsRotation = seconds * 6f;
 
-            final float minutesRotation = mCalendar.get(Calendar.MINUTE) * 6f;
-
-            final float hourHandOffset = mCalendar.get(Calendar.MINUTE) / 2f;
-            final float hoursRotation = (mCalendar.get(Calendar.HOUR) * 30) + hourHandOffset;
-
+            final float mDegreesSeparation = 360 / 3 / 7; //We want it to occupy one-third of the outer edge and divide into 7 days
+            final float mDistanceFromEdge = 25;
             /*
              * Save the canvas state before we can begin to rotate it.
              */
             canvas.save();
 
-            canvas.rotate(hoursRotation, mCenterX, mCenterY);
-            canvas.drawLine(
-                    mCenterX,
-                    mCenterY - CENTER_GAP_AND_CIRCLE_RADIUS,
-                    mCenterX,
-                    mCenterY - mHourHandLength,
-                    mHourPaint);
 
-            canvas.rotate(minutesRotation - hoursRotation, mCenterX, mCenterY);
-            canvas.drawLine(
-                    mCenterX,
-                    mCenterY - CENTER_GAP_AND_CIRCLE_RADIUS,
-                    mCenterX,
-                    mCenterY - mMinuteHandLength,
-                    mMinutePaint);
+            mHourPaint.setTextSize(40);
+            mDate = new Date();
+            long now = System.currentTimeMillis();
+            long timeToDraw = now - 3*24*60*60*1000;
+            mDate.setTime(timeToDraw);
+            mDayOfWeekFormat = new SimpleDateFormat("EEE", Locale.getDefault());
+            mDayOfWeekFormat.setCalendar(mCalendar);
+            mDateFormat = new SimpleDateFormat("d", Locale.getDefault());
+            mDateFormat.setCalendar(mCalendar);
+            mCurrentDateFormat = new SimpleDateFormat("MMM d", Locale.getDefault());
+
 
             /*
-             * Ensure the "seconds" hand is drawn only when we are in interactive mode.
-             * Otherwise, we only update the watch face once a minute.
+             * Draw the first date
              */
-            if (!mAmbient) {
-                canvas.rotate(secondsRotation - minutesRotation, mCenterX, mCenterY);
-                canvas.drawLine(
-                        mCenterX,
-                        mCenterY - CENTER_GAP_AND_CIRCLE_RADIUS,
-                        mCenterX,
-                        mCenterY - mSecondHandLength,
-                        mSecondAndHighlightPaint);
+            canvas.rotate((mDegreesSeparation * -4), mCenterX, mCenterY); //Rotate back to the first day to draw
+            for (int i = 1; i <= 7; i++){
+                float prevTextSize = mOuterDatesPaint.getTextSize();
+                if (timeToDraw == now) {
+                    canvas.rotate(mDegreesSeparation, mCenterX, mCenterY);
+                    mOuterDatesPaint.setTextSize(mOuterDatesPaint.getTextSize() * 1.4f);
+                    canvas.drawText(mDayOfWeekFormat.format(mDate).substring(0, 3), mCenterX - (mOuterDatesPaint.measureText(mDayOfWeekFormat.format(mDate).substring(0, 3)) / 2), mDistanceFromEdge, mOuterDatesPaint);
+                    canvas.drawText(mCurrentDateFormat.format(mDate), mCenterX - (mOuterDatesPaint.measureText(mCurrentDateFormat.format(mDate)) / 2), mDistanceFromEdge + mOuterDatesPaint.getTextSize(), mOuterDatesPaint);
+                    mOuterDatesPaint.setTextSize(prevTextSize);
+                    canvas.rotate(mDegreesSeparation, mCenterX, mCenterY);
+                } else {
+                    canvas.drawText(mDayOfWeekFormat.format(mDate).substring(0, 2), mCenterX - (mOuterDatesPaint.measureText(mDayOfWeekFormat.format(mDate).substring(0, 2)) / 2), mDistanceFromEdge, mOuterDatesPaint);
+                    canvas.drawText(mDateFormat.format(mDate), mCenterX - (mOuterDatesPaint.measureText(mDateFormat.format(mDate)) / 2), mDistanceFromEdge + mOuterDatesPaint.getTextSize(), mOuterDatesPaint);
+                }
+
+                timeToDraw = timeToDraw + 24*60*60*1000;
+                mDate.setTime(timeToDraw);
+
+                canvas.rotate(mDegreesSeparation, mCenterX, mCenterY);
             }
-            canvas.drawCircle(
-                    mCenterX, mCenterY, CENTER_GAP_AND_CIRCLE_RADIUS, mTickAndCirclePaint);
 
             /* Restore the canvas' original orientation. */
             canvas.restore();
 
 
-            float hourxOffset = 80;
-            float houryOffset = 150;
             String hourString;
             int hour = mCalendar.get(Calendar.HOUR);
             if (hour == 0) {
@@ -742,6 +705,9 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
             }
             hourString = String.valueOf(hour);
             mHourPaint.setTextSize(80);
+            float hourxOffset = mCenterX - (mHourPaint.measureText(hourString + ":01") / 2);
+            float houryOffset = mCenterY;
+
             canvas.drawText(hourString, hourxOffset, houryOffset, mHourPaint);
 
             hourxOffset += mHourPaint.measureText(hourString);
@@ -757,28 +723,6 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
             // Draw the minutes.
             String minuteString = formatTwoDigitNumber(mCalendar.get(Calendar.MINUTE));
             canvas.drawText(minuteString, hourxOffset, houryOffset, mHourPaint);
-
-
-            mHourPaint.setTextSize(40);
-            mDate = new Date();
-            long now = System.currentTimeMillis();
-            mDate.setTime(now);
-            mDayOfWeekFormat = new SimpleDateFormat("EEEE", Locale.getDefault());
-            mDayOfWeekFormat.setCalendar(mCalendar);
-            mDateFormat = new SimpleDateFormat("MMM d", Locale.getDefault());
-            mDateFormat.setCalendar(mCalendar);
-
-            hourxOffset = 160 - (mHourPaint.measureText(mDayOfWeekFormat.format(mDate)) / 2);
-            houryOffset += 40;
-
-            canvas.drawText(
-                    mDayOfWeekFormat.format(mDate),
-                    hourxOffset, houryOffset, mHourPaint);
-            // Date
-            houryOffset += 40;
-            canvas.drawText(
-                    mDateFormat.format(mDate),
-                    hourxOffset, houryOffset, mHourPaint);
         }
 
         @Override

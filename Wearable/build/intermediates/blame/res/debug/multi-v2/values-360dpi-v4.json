@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/jordan/StudioProjects/android-WatchFace/Wearable/build/intermediates/incremental/mergeDebugResources/merged.dir/values-360dpi-v4/values-360dpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/jordan/StudioProjects/android-WatchFace/Wearable/src/main/res/values-360dpi/dimens.xml",
+                    "from": {
+                        "startLines": "16,18,17,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "650,779,705,848",
+                        "endColumns": "54,68,73,68",
+                        "endOffsets": "700,843,774,912"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,110,179,253",
+                        "endColumns": "54,68,73,68",
+                        "endOffsets": "105,174,248,317"
+                    }
+                },
+                {
+                    "source": "/Users/jordan/StudioProjects/android-WatchFace/Wearable/src/main/res/values-360dpi/styles.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "687",
+                        "endLines": "25",
+                        "endColumns": "12",
+                        "endOffsets": "1189"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "322",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "824"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -14,17 +14,9 @@
  limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">WatchFace</string>
+    <string name="app_name">FreezeyFace</string>
 
-    <string name="opengl_name">Sample OpenGL</string>
-    <string name="interactive_name">Sample Interactive</string>
-    <string name="analog_complication">Sample Analog</string>
-    <string name="digital_name">Sample Digital 1.0</string>
-
-    <string name="digital_background_color">Background color</string>
-    <string name="digital_config_name">Digital watch face configuration</string>
-    <string name="digital_am">AM</string>
-    <string name="digital_pm">PM</string>
+    <string name="face_name">Freezey Face</string>
 
     <string name="complications_provider_incrementing_number">Incrementing Number</string>
 

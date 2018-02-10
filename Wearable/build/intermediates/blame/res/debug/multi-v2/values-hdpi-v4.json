@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/jordan/StudioProjects/android-WatchFace/Wearable/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/jordan/StudioProjects/android-WatchFace/Wearable/src/main/res/values-hdpi/styles.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "4",
+                        "startOffsets": "687",
+                        "endLines": "25",
+                        "endColumns": "12",
+                        "endOffsets": "1188"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "321",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "822"
+                    }
+                },
+                {
+                    "source": "/Users/jordan/StudioProjects/android-WatchFace/Wearable/src/main/res/values-hdpi/dimens.xml",
+                    "from": {
+                        "startLines": "16,18,17,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "650,778,704,847",
+                        "endColumns": "53,68,73,68",
+                        "endOffsets": "699,842,773,911"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,109,178,252",
+                        "endColumns": "53,68,73,68",
+                        "endOffsets": "104,173,247,316"
+                    }
+                }
+            ]
+        }
+    ]
+}

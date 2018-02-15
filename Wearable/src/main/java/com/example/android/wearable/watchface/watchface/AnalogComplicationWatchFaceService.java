@@ -25,6 +25,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
+import android.os.BatteryManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -136,6 +137,8 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
         private static final float HOUR_STROKE_WIDTH = 5f;
         private static final float MINUTE_STROKE_WIDTH = 3f;
         private static final float SECOND_TICK_STROKE_WIDTH = 2f;
+        private static final float BATTERY_ARC_STROKE_WIDTH = 5f;
+        private static final float BATTERY_USED_STROKE_WIDTH = 2f;
 
         private static final int SHADOW_RADIUS = 6;
 
@@ -159,6 +162,8 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
         private Paint mMinutePaint;
         private Paint mSecondAndHighlightPaint;
         private Paint mOuterDatesPaint;
+        private Paint mBatteryArcPaint;
+        private Paint mBatteryUsedPaint;
 
         private Paint mBackgroundPaint;
 
@@ -321,6 +326,22 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
             mHourPaint.setAntiAlias(true);
             mHourPaint.setStrokeCap(Paint.Cap.ROUND);
             mHourPaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mWatchHandShadowColor);
+
+            mBatteryArcPaint = new Paint();
+            mBatteryArcPaint.setColor(mWatchHandAndComplicationsColor);
+            mBatteryArcPaint.setStrokeWidth(BATTERY_ARC_STROKE_WIDTH);
+            mBatteryArcPaint.setAntiAlias(true);
+            mBatteryArcPaint.setStrokeCap(Paint.Cap.ROUND);
+            mBatteryArcPaint.setShadowLayer(SHADOW_RADIUS, 0,0,mWatchHandShadowColor);
+            mBatteryArcPaint.setStyle(Paint.Style.STROKE);
+            
+            mBatteryUsedPaint = new Paint();
+            mBatteryUsedPaint.setColor(mWatchHandAndComplicationsColor);
+            mBatteryUsedPaint.setStrokeWidth(BATTERY_USED_STROKE_WIDTH);
+            mBatteryUsedPaint.setAntiAlias(true);
+            mBatteryUsedPaint.setStrokeCap(Paint.Cap.ROUND);
+            mBatteryUsedPaint.setShadowLayer(SHADOW_RADIUS, 0,0,mWatchHandShadowColor);
+            mBatteryUsedPaint.setStyle(Paint.Style.STROKE);
 
             mMinutePaint = new Paint();
             mMinutePaint.setColor(mWatchHandAndComplicationsColor);
@@ -601,6 +622,7 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
             drawComplications(canvas, now);
             drawUnreadNotificationIcon(canvas);
             drawWatchFace(canvas);
+            drawBatteryIndicator(canvas);
         }
 
         private void drawUnreadNotificationIcon(Canvas canvas) {
@@ -723,6 +745,45 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
             // Draw the minutes.
             String minuteString = formatTwoDigitNumber(mCalendar.get(Calendar.MINUTE));
             canvas.drawText(minuteString, hourxOffset, houryOffset, mHourPaint);
+        }
+
+        private void drawBatteryIndicator(Canvas canvas){
+            IntentFilter ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
+            Intent batteryStatus = AnalogComplicationWatchFaceService.this.registerReceiver(null, ifilter);
+            int level;
+            //Level
+            level = batteryStatus.getIntExtra(BatteryManager.EXTRA_LEVEL, -1);
+
+            float left = 5;
+            float top = mCenterY;
+            float right = (mCenterX * 2f) - 5;
+            float bottom = mCenterY * 1.3f;
+            float startRight = 170 - 160*level*.01f;
+            float arcLength = 170 - startRight;
+
+            canvas.drawArc(
+                    left,
+                    top,
+                    right,
+                    bottom,
+                    startRight,
+                    arcLength,
+                    false,
+                    mBatteryArcPaint
+            );
+
+            arcLength = startRight - 10;
+            startRight = 10f;
+            canvas.drawArc(
+                    left,
+                    top,
+                    right,
+                    bottom,
+                    startRight,
+                    arcLength,
+                    false,
+                    mBatteryUsedPaint
+            );
         }
 
         @Override

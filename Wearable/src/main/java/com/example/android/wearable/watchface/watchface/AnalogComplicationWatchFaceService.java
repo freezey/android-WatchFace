@@ -754,12 +754,14 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
             //Level
             level = batteryStatus.getIntExtra(BatteryManager.EXTRA_LEVEL, -1);
 
-            float left = 5;
-            float top = mCenterY;
-            float right = (mCenterX * 2f) - 5;
-            float bottom = mCenterY * 1.3f;
-            float startRight = 170 - 160*level*.01f;
-            float arcLength = 170 - startRight;
+            //Arc begins 1/6th from the left and ends 1/6th from the right
+            float left = mCenterX / 3f;
+            float top = mCenterY*0.8f;
+            float right = mCenterX * 10f / 6f;
+            float bottom = mCenterY * 1.2f;
+            float maxArcLength = 120;
+            float startRight = 150 - maxArcLength*level*.01f;
+            float arcLength = maxArcLength*level*.01f;
 
             canvas.drawArc(
                     left,
@@ -772,8 +774,8 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
                     mBatteryArcPaint
             );
 
-            arcLength = startRight - 10;
-            startRight = 10f;
+            arcLength = maxArcLength - arcLength;
+            startRight = 30f;
             canvas.drawArc(
                     left,
                     top,

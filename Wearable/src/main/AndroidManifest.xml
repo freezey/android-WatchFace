@@ -46,7 +46,7 @@
 
 
         <service
-            android:name=".watchface.AnalogComplicationWatchFaceService"
+            android:name=".watchface.FreezeyWatchFaceService"
             android:enabled="true"
             android:label="@string/face_name"
             android:permission="android.permission.BIND_WALLPAPER">

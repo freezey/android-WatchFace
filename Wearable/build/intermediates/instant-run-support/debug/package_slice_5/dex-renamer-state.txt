@@ -1,4 +1,4 @@
-#Sat Feb 10 00:01:08 MST 2018
+#Sat Feb 17 15:52:32 MST 2018
 base.0=/Users/jordan/StudioProjects/android-WatchFace/Wearable/build/intermediates/transforms/dexMerger/debug/5
 path.0=classes.dex
 renamed.0=classes.dex

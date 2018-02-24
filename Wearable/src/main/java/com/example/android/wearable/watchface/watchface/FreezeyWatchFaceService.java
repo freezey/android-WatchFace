@@ -34,7 +34,6 @@ import android.support.wearable.complications.rendering.ComplicationDrawable;
 import android.support.wearable.watchface.CanvasWatchFaceService;
 import android.support.wearable.watchface.WatchFaceService;
 import android.support.wearable.watchface.WatchFaceStyle;
-import android.text.format.DateFormat;
 import android.util.Log;
 import android.util.SparseArray;
 import android.view.SurfaceHolder;
@@ -48,8 +47,7 @@ import java.util.Locale;
 import java.util.TimeZone;
 import java.util.concurrent.TimeUnit;
 
-/** Demonstrates two simple complications in a watch face. */
-public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
+public class FreezeyWatchFaceService extends CanvasWatchFaceService {
     private static final String TAG = "FreezeyFace";
 
     // Unique IDs for each complication. The settings activity that supports allowing users
@@ -135,10 +133,9 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
         private static final int MSG_UPDATE_TIME = 0;
 
         private static final float HOUR_STROKE_WIDTH = 5f;
-        private static final float MINUTE_STROKE_WIDTH = 3f;
-        private static final float SECOND_TICK_STROKE_WIDTH = 2f;
         private static final float BATTERY_ARC_STROKE_WIDTH = 5f;
         private static final float BATTERY_USED_STROKE_WIDTH = 2f;
+        private static final float OUTER_DATES_STROKE_WIDTH = 2f;
 
         private static final int SHADOW_RADIUS = 6;
 
@@ -151,16 +148,12 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
         private float mCenterX;
         private float mCenterY;
 
-        // Colors for all hands (hour, minute, seconds, ticks) based on photo loaded.
-        private int mWatchHandAndComplicationsColor;
-        private int mWatchHandHighlightColor;
-        private int mWatchHandShadowColor;
 
+        private int mPrimaryColor;
+        private int mShadowColor;
         private int mBackgroundColor;
 
         private Paint mHourPaint;
-        private Paint mMinutePaint;
-        private Paint mSecondAndHighlightPaint;
         private Paint mOuterDatesPaint;
         private Paint mBatteryArcPaint;
         private Paint mBatteryUsedPaint;
@@ -173,9 +166,6 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
         private SimpleDateFormat mDayOfWeekFormat;
         private java.text.DateFormat mDateFormat;
         private java.text.DateFormat mCurrentDateFormat;
-
-        private float mXOffset;
-        private float mYOffset;
 
 
         /* Maps active complication ids to the data for that complication. Note: Data will only be
@@ -245,7 +235,7 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
             mCalendar = Calendar.getInstance();
 
             setWatchFaceStyle(
-                    new WatchFaceStyle.Builder(AnalogComplicationWatchFaceService.this)
+                    new WatchFaceStyle.Builder(FreezeyWatchFaceService.this)
                             .setAcceptsTapEvents(true)
                             .setHideNotificationIndicator(true)
                             .build());
@@ -258,24 +248,13 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
         // Pulls all user's preferences for watch face appearance.
         private void loadSavedPreferences() {
 
-            String backgroundColorResourceName =
-                    getApplicationContext().getString(R.string.saved_background_color);
-
-            mBackgroundColor = mSharedPref.getInt(backgroundColorResourceName, Color.BLACK);
+            mBackgroundColor = Color.BLACK;
 
             String markerColorResourceName =
                     getApplicationContext().getString(R.string.saved_marker_color);
 
             // Set defaults for colors
-            mWatchHandHighlightColor = mSharedPref.getInt(markerColorResourceName, Color.RED);
-
-            if (mBackgroundColor == Color.WHITE) {
-                mWatchHandAndComplicationsColor = Color.BLACK;
-                mWatchHandShadowColor = Color.WHITE;
-            } else {
-                mWatchHandAndComplicationsColor = Color.WHITE;
-                mWatchHandShadowColor = Color.BLACK;
-            }
+            mPrimaryColor = mSharedPref.getInt(markerColorResourceName, Color.BLUE);
 
             String unreadNotificationPreferenceResourceName =
                     getApplicationContext().getString(R.string.saved_unread_notifications_pref);
@@ -314,55 +293,41 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
             mComplicationDrawableSparseArray.put(
                     BACKGROUND_COMPLICATION_ID, backgroundComplicationDrawable);
 
-            setComplicationsActiveAndAmbientColors(mWatchHandHighlightColor);
+            setComplicationsActiveAndAmbientColors(mPrimaryColor);
             setActiveComplications(COMPLICATION_IDS);
         }
 
         private void initializeWatchFace() {
 
             mHourPaint = new Paint();
-            mHourPaint.setColor(mWatchHandAndComplicationsColor);
+            mHourPaint.setColor(mPrimaryColor);
             mHourPaint.setStrokeWidth(HOUR_STROKE_WIDTH);
             mHourPaint.setAntiAlias(true);
             mHourPaint.setStrokeCap(Paint.Cap.ROUND);
-            mHourPaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mWatchHandShadowColor);
+            mHourPaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mShadowColor);
 
             mBatteryArcPaint = new Paint();
-            mBatteryArcPaint.setColor(mWatchHandAndComplicationsColor);
+            mBatteryArcPaint.setColor(mPrimaryColor);
             mBatteryArcPaint.setStrokeWidth(BATTERY_ARC_STROKE_WIDTH);
             mBatteryArcPaint.setAntiAlias(true);
             mBatteryArcPaint.setStrokeCap(Paint.Cap.ROUND);
-            mBatteryArcPaint.setShadowLayer(SHADOW_RADIUS, 0,0,mWatchHandShadowColor);
+            mBatteryArcPaint.setShadowLayer(SHADOW_RADIUS, 0,0,mShadowColor);
             mBatteryArcPaint.setStyle(Paint.Style.STROKE);
             
             mBatteryUsedPaint = new Paint();
-            mBatteryUsedPaint.setColor(mWatchHandAndComplicationsColor);
+            mBatteryUsedPaint.setColor(mPrimaryColor);
             mBatteryUsedPaint.setStrokeWidth(BATTERY_USED_STROKE_WIDTH);
             mBatteryUsedPaint.setAntiAlias(true);
             mBatteryUsedPaint.setStrokeCap(Paint.Cap.ROUND);
-            mBatteryUsedPaint.setShadowLayer(SHADOW_RADIUS, 0,0,mWatchHandShadowColor);
+            mBatteryUsedPaint.setShadowLayer(SHADOW_RADIUS, 0,0,mShadowColor);
             mBatteryUsedPaint.setStyle(Paint.Style.STROKE);
 
-            mMinutePaint = new Paint();
-            mMinutePaint.setColor(mWatchHandAndComplicationsColor);
-            mMinutePaint.setStrokeWidth(MINUTE_STROKE_WIDTH);
-            mMinutePaint.setAntiAlias(true);
-            mMinutePaint.setStrokeCap(Paint.Cap.ROUND);
-            mMinutePaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mWatchHandShadowColor);
-
-            mSecondAndHighlightPaint = new Paint();
-            mSecondAndHighlightPaint.setColor(mWatchHandHighlightColor);
-            mSecondAndHighlightPaint.setStrokeWidth(SECOND_TICK_STROKE_WIDTH);
-            mSecondAndHighlightPaint.setAntiAlias(true);
-            mSecondAndHighlightPaint.setStrokeCap(Paint.Cap.ROUND);
-            mSecondAndHighlightPaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mWatchHandShadowColor);
-
             mOuterDatesPaint = new Paint();
-            mOuterDatesPaint.setColor(mWatchHandAndComplicationsColor);
-            mOuterDatesPaint.setStrokeWidth(SECOND_TICK_STROKE_WIDTH);
+            mOuterDatesPaint.setColor(mPrimaryColor);
+            mOuterDatesPaint.setStrokeWidth(OUTER_DATES_STROKE_WIDTH);
             mOuterDatesPaint.setAntiAlias(true);
             mOuterDatesPaint.setStyle(Paint.Style.STROKE);
-            mOuterDatesPaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mWatchHandShadowColor);
+            mOuterDatesPaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mShadowColor);
             mOuterDatesPaint.setTextSize(15);
         }
 
@@ -500,40 +465,27 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
 
                 mBackgroundPaint.setColor(Color.BLACK);
 
-                mHourPaint.setColor(Color.WHITE);
-                mMinutePaint.setColor(Color.WHITE);
-                mSecondAndHighlightPaint.setColor(Color.WHITE);
-                mOuterDatesPaint.setColor(Color.WHITE);
+//                mHourPaint.setColor(Color.WHITE);
+//                mOuterDatesPaint.setColor(Color.WHITE);
 
                 mHourPaint.setAntiAlias(false);
-                mMinutePaint.setAntiAlias(false);
-                mSecondAndHighlightPaint.setAntiAlias(false);
                 mOuterDatesPaint.setAntiAlias(false);
 
                 mHourPaint.clearShadowLayer();
-                mMinutePaint.clearShadowLayer();
-                mSecondAndHighlightPaint.clearShadowLayer();
                 mOuterDatesPaint.clearShadowLayer();
 
             } else {
 
                 mBackgroundPaint.setColor(mBackgroundColor);
 
-                mHourPaint.setColor(mWatchHandAndComplicationsColor);
-                mMinutePaint.setColor(mWatchHandAndComplicationsColor);
-                mOuterDatesPaint.setColor(mWatchHandAndComplicationsColor);
-
-                mSecondAndHighlightPaint.setColor(mWatchHandHighlightColor);
+                mHourPaint.setColor(mPrimaryColor);
+                mOuterDatesPaint.setColor(mPrimaryColor);
 
                 mHourPaint.setAntiAlias(true);
-                mMinutePaint.setAntiAlias(true);
-                mSecondAndHighlightPaint.setAntiAlias(true);
                 mOuterDatesPaint.setAntiAlias(true);
 
-                mHourPaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mWatchHandShadowColor);
-                mMinutePaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mWatchHandShadowColor);
-                mSecondAndHighlightPaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mWatchHandShadowColor);
-                mOuterDatesPaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mWatchHandShadowColor);
+                mHourPaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mShadowColor);
+                mOuterDatesPaint.setShadowLayer(SHADOW_RADIUS, 0, 0, mShadowColor);
             }
         }
 
@@ -546,8 +498,7 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
             if (mMuteMode != inMuteMode) {
                 mMuteMode = inMuteMode;
                 mHourPaint.setAlpha(inMuteMode ? 100 : 255);
-                mMinutePaint.setAlpha(inMuteMode ? 100 : 255);
-                mSecondAndHighlightPaint.setAlpha(inMuteMode ? 80 : 255);
+                mOuterDatesPaint.setAlpha(inMuteMode ? 100 : 255);
                 invalidate();
             }
         }
@@ -639,7 +590,7 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
                  * we don't burn the screen with a solid circle in ambient mode.
                  */
                 if (!mAmbient) {
-                    canvas.drawCircle(width / 2, height - 40, 4, mSecondAndHighlightPaint);
+                    canvas.drawCircle(width / 2, height - 40, 4, mBatteryArcPaint);
                 }
             }
         }
@@ -749,7 +700,7 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
 
         private void drawBatteryIndicator(Canvas canvas){
             IntentFilter ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
-            Intent batteryStatus = AnalogComplicationWatchFaceService.this.registerReceiver(null, ifilter);
+            Intent batteryStatus = FreezeyWatchFaceService.this.registerReceiver(null, ifilter);
             int level;
             //Level
             level = batteryStatus.getIntExtra(BatteryManager.EXTRA_LEVEL, -1);
@@ -802,7 +753,7 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
                 // the active/ambient colors, we only need to update the complications' colors when
                 // the user actually makes a change to the highlight color, not when the watch goes
                 // in and out of ambient mode.
-                setComplicationsActiveAndAmbientColors(mWatchHandHighlightColor);
+                setComplicationsActiveAndAmbientColors(mPrimaryColor);
                 updateWatchPaintStyles();
 
                 registerReceiver();
@@ -836,7 +787,7 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
             }
             mRegisteredTimeZoneReceiver = true;
             IntentFilter filter = new IntentFilter(Intent.ACTION_TIMEZONE_CHANGED);
-            AnalogComplicationWatchFaceService.this.registerReceiver(mTimeZoneReceiver, filter);
+            FreezeyWatchFaceService.this.registerReceiver(mTimeZoneReceiver, filter);
         }
 
         private void unregisterReceiver() {
@@ -844,7 +795,7 @@ public class AnalogComplicationWatchFaceService extends CanvasWatchFaceService {
                 return;
             }
             mRegisteredTimeZoneReceiver = false;
-            AnalogComplicationWatchFaceService.this.unregisterReceiver(mTimeZoneReceiver);
+            FreezeyWatchFaceService.this.unregisterReceiver(mTimeZoneReceiver);
         }
 
         /**

@@ -14,7 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<manifest package="com.example.android.wearable.watchface"
+<manifest package="com.freezey.android.wearable.freezeyface"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-sdk
@@ -72,7 +72,7 @@
 
         <activity android:name="android.support.wearable.complications.ComplicationHelperActivity"/>
         <activity
-            android:name=".config.AnalogComplicationConfigActivity"
+            android:name=".config.FreezeyfaceComplicationConfigActivity"
             android:label="@string/analog_complication_config">
             <intent-filter>
                 <action android:name="com.example.android.wearable.watchface.CONFIG_COMPLICATION_SIMPLE"/>

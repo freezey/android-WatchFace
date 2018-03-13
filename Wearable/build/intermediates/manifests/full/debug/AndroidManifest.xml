@@ -35,8 +35,7 @@
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:testOnly="true" >
+        android:label="@string/app_name" >
         <meta-data
             android:name="com.google.android.wearable.standalone"
             android:value="true" />
@@ -49,7 +48,7 @@
             android:required="false" />
 
         <service
-            android:name="com.example.android.wearable.watchface.watchface.AnalogComplicationWatchFaceService"
+            android:name="com.example.android.wearable.watchface.watchface.FreezeyWatchFaceService"
             android:enabled="true"
             android:label="@string/face_name"
             android:permission="android.permission.BIND_WALLPAPER" >

@@ -35,7 +35,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.android.wearable.watchface.DigitalWatchFaceCompanionConfigActivity"
+            android:name="com.freezey.android.wearable.freezeyface.DigitalWatchFaceCompanionConfigActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.example.android.wearable.watchface.CONFIG_DIGITAL" />
@@ -45,7 +45,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.wearable.watchface.OpenGLWatchFaceConfigActivity"
+            android:name="com.freezey.android.wearable.freezeyface.OpenGLWatchFaceConfigActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.example.android.wearable.watchface.CONFIG_OPENGL" />

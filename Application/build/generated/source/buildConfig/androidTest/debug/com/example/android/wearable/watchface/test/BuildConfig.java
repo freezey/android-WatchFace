@@ -1,7 +1,7 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package com.example.android.wearable.watchface.test;
+package com.freezey.android.wearable.freezeyface.test;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");

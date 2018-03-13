@@ -16,7 +16,7 @@ configuration activity. You can see a preview in the screenshots section of the 
 
 The analog watch face has three main classes:
 
-- AnalogComplicationWatchFaceService.java (watchface folder) - Renders the watch face and active
+- FreezeyWatchFaceService.java (watchface folder) - Renders the watch face and active
 complications.
 
 - AnalogComplicationConfigActivity.java (config folder) - Allows user to adjust watch face settings

@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.android.wearable.watchface.test;
+package com.freezey.android.wearable.freezeyface.test;
 
 public final class R {
   public static final class anim {
@@ -4245,7 +4245,7 @@ public final class R {
         0x7f040133
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dialogIcon}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dialogIcon}
      * attribute's value can be found in the {@link #AcceptDenyDialogPreference} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4257,7 +4257,7 @@ public final class R {
      */
     public static final int AcceptDenyDialogPreference_dialogIcon=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dialogMessage}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dialogMessage}
      * attribute's value can be found in the {@link #AcceptDenyDialogPreference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -4267,7 +4267,7 @@ public final class R {
      */
     public static final int AcceptDenyDialogPreference_dialogMessage=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dialogTitle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dialogTitle}
      * attribute's value can be found in the {@link #AcceptDenyDialogPreference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -4277,7 +4277,7 @@ public final class R {
      */
     public static final int AcceptDenyDialogPreference_dialogTitle=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#showNegativeDialogButton}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#showNegativeDialogButton}
      * attribute's value can be found in the {@link #AcceptDenyDialogPreference} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -4287,7 +4287,7 @@ public final class R {
      */
     public static final int AcceptDenyDialogPreference_showNegativeDialogButton=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#showPositiveDialogButton}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#showPositiveDialogButton}
      * attribute's value can be found in the {@link #AcceptDenyDialogPreference} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -4324,7 +4324,7 @@ public final class R {
         0x7f040130, 0x7f040132, 0x7f040133
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dialogIcon}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dialogIcon}
      * attribute's value can be found in the {@link #AcceptDenySwitchPreference} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4336,7 +4336,7 @@ public final class R {
      */
     public static final int AcceptDenySwitchPreference_dialogIcon=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dialogMessage}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dialogMessage}
      * attribute's value can be found in the {@link #AcceptDenySwitchPreference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -4346,7 +4346,7 @@ public final class R {
      */
     public static final int AcceptDenySwitchPreference_dialogMessage=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dialogTitle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dialogTitle}
      * attribute's value can be found in the {@link #AcceptDenySwitchPreference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -4356,7 +4356,7 @@ public final class R {
      */
     public static final int AcceptDenySwitchPreference_dialogTitle=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#showDialogWhenTurningOff}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#showDialogWhenTurningOff}
      * attribute's value can be found in the {@link #AcceptDenySwitchPreference} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -4366,7 +4366,7 @@ public final class R {
      */
     public static final int AcceptDenySwitchPreference_showDialogWhenTurningOff=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#showDialogWhenTurningOn}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#showDialogWhenTurningOn}
      * attribute's value can be found in the {@link #AcceptDenySwitchPreference} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -4376,7 +4376,7 @@ public final class R {
      */
     public static final int AcceptDenySwitchPreference_showDialogWhenTurningOn=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#showNegativeDialogButton}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#showNegativeDialogButton}
      * attribute's value can be found in the {@link #AcceptDenySwitchPreference} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -4386,7 +4386,7 @@ public final class R {
      */
     public static final int AcceptDenySwitchPreference_showNegativeDialogButton=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#showPositiveDialogButton}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#showPositiveDialogButton}
      * attribute's value can be found in the {@link #AcceptDenySwitchPreference} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -4473,7 +4473,7 @@ public final class R {
         0x7f04016f
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4485,7 +4485,7 @@ public final class R {
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4500,7 +4500,7 @@ public final class R {
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4515,7 +4515,7 @@ public final class R {
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4528,7 +4528,7 @@ public final class R {
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4541,7 +4541,7 @@ public final class R {
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4554,7 +4554,7 @@ public final class R {
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4567,7 +4567,7 @@ public final class R {
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4580,7 +4580,7 @@ public final class R {
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4593,7 +4593,7 @@ public final class R {
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4605,7 +4605,7 @@ public final class R {
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -4627,7 +4627,7 @@ public final class R {
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4639,7 +4639,7 @@ public final class R {
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4652,7 +4652,7 @@ public final class R {
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4665,7 +4665,7 @@ public final class R {
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -4675,7 +4675,7 @@ public final class R {
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4687,7 +4687,7 @@ public final class R {
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4699,7 +4699,7 @@ public final class R {
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4711,7 +4711,7 @@ public final class R {
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4723,7 +4723,7 @@ public final class R {
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4736,7 +4736,7 @@ public final class R {
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4748,7 +4748,7 @@ public final class R {
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4766,7 +4766,7 @@ public final class R {
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4778,7 +4778,7 @@ public final class R {
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4791,7 +4791,7 @@ public final class R {
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4803,7 +4803,7 @@ public final class R {
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -4813,7 +4813,7 @@ public final class R {
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4825,7 +4825,7 @@ public final class R {
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -4835,7 +4835,7 @@ public final class R {
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5058,7 +5058,7 @@ public final class R {
      */
     public static final int ActionLabel_android_fontFamily=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#maxTextSize}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#maxTextSize}
      * attribute's value can be found in the {@link #ActionLabel} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5071,7 +5071,7 @@ public final class R {
      */
     public static final int ActionLabel_maxTextSize=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#minTextSize}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#minTextSize}
      * attribute's value can be found in the {@link #ActionLabel} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5138,7 +5138,7 @@ public final class R {
         0x7f040146, 0x7f04016f
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5150,7 +5150,7 @@ public final class R {
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5165,7 +5165,7 @@ public final class R {
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5177,7 +5177,7 @@ public final class R {
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5190,7 +5190,7 @@ public final class R {
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5202,7 +5202,7 @@ public final class R {
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5449,7 +5449,7 @@ public final class R {
      */
     public static final int ActionPage_android_stateListAnimator=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#buttonRippleColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#buttonRippleColor}
      * attribute's value can be found in the {@link #ActionPage} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5464,7 +5464,7 @@ public final class R {
      */
     public static final int ActionPage_buttonRippleColor=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#imageScaleMode}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#imageScaleMode}
      * attribute's value can be found in the {@link #ActionPage} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5481,7 +5481,7 @@ public final class R {
      */
     public static final int ActionPage_imageScaleMode=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#maxTextSize}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#maxTextSize}
      * attribute's value can be found in the {@link #ActionPage} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5494,7 +5494,7 @@ public final class R {
      */
     public static final int ActionPage_maxTextSize=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#minTextSize}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#minTextSize}
      * attribute's value can be found in the {@link #ActionPage} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5507,7 +5507,7 @@ public final class R {
      */
     public static final int ActionPage_minTextSize=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#pressedButtonTranslationZ}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#pressedButtonTranslationZ}
      * attribute's value can be found in the {@link #ActionPage} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5536,7 +5536,7 @@ public final class R {
         0x7f0400a4, 0x7f0400c8
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5548,7 +5548,7 @@ public final class R {
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -5597,7 +5597,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5609,7 +5609,7 @@ public final class R {
      */
     public static final int AlertDialog_buttonPanelSideLayout=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5621,7 +5621,7 @@ public final class R {
      */
     public static final int AlertDialog_listItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5633,7 +5633,7 @@ public final class R {
      */
     public static final int AlertDialog_listLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5645,7 +5645,7 @@ public final class R {
      */
     public static final int AlertDialog_multiChoiceItemLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -5655,7 +5655,7 @@ public final class R {
      */
     public static final int AlertDialog_showTitle=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5702,7 +5702,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5714,7 +5714,7 @@ public final class R {
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#tint}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -5725,7 +5725,7 @@ public final class R {
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5778,7 +5778,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5790,7 +5790,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -5801,7 +5801,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5992,7 +5992,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6005,7 +6005,7 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6018,7 +6018,7 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6030,7 +6030,7 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6043,7 +6043,7 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -6060,7 +6060,7 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -6070,7 +6070,7 @@ public final class R {
      */
     public static final int AppCompatTextView_fontFamily=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6385,7 +6385,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6397,7 +6397,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6409,7 +6409,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6421,7 +6421,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6442,7 +6442,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6454,7 +6454,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6466,7 +6466,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6478,7 +6478,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6490,7 +6490,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6502,7 +6502,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6514,7 +6514,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6526,7 +6526,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6538,7 +6538,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6550,7 +6550,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6562,7 +6562,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6577,7 +6577,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6589,7 +6589,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6601,7 +6601,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6613,7 +6613,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6625,7 +6625,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6637,7 +6637,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6649,7 +6649,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6661,7 +6661,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6673,7 +6673,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6685,7 +6685,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6697,7 +6697,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6709,7 +6709,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6721,7 +6721,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6733,7 +6733,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6745,7 +6745,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6757,7 +6757,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6769,7 +6769,7 @@ public final class R {
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6781,7 +6781,7 @@ public final class R {
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -6791,7 +6791,7 @@ public final class R {
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6803,7 +6803,7 @@ public final class R {
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6815,7 +6815,7 @@ public final class R {
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6827,7 +6827,7 @@ public final class R {
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6839,7 +6839,7 @@ public final class R {
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6851,7 +6851,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6863,7 +6863,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6875,7 +6875,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6887,7 +6887,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6899,7 +6899,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6911,7 +6911,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6923,7 +6923,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6935,7 +6935,7 @@ public final class R {
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6947,7 +6947,7 @@ public final class R {
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -6958,7 +6958,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -6969,7 +6969,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -6980,7 +6980,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -6991,7 +6991,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -7002,7 +7002,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -7013,7 +7013,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7028,7 +7028,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -7039,7 +7039,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -7050,7 +7050,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -7061,7 +7061,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7073,7 +7073,7 @@ public final class R {
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7086,7 +7086,7 @@ public final class R {
      */
     public static final int AppCompatTheme_dialogPreferredPadding=59;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7098,7 +7098,7 @@ public final class R {
      */
     public static final int AppCompatTheme_dialogTheme=60;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7110,7 +7110,7 @@ public final class R {
      */
     public static final int AppCompatTheme_dividerHorizontal=61;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7122,7 +7122,7 @@ public final class R {
      */
     public static final int AppCompatTheme_dividerVertical=62;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7134,7 +7134,7 @@ public final class R {
      */
     public static final int AppCompatTheme_dropDownListViewStyle=63;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7147,7 +7147,7 @@ public final class R {
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7159,7 +7159,7 @@ public final class R {
      */
     public static final int AppCompatTheme_editTextBackground=65;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7174,7 +7174,7 @@ public final class R {
      */
     public static final int AppCompatTheme_editTextColor=66;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7186,7 +7186,7 @@ public final class R {
      */
     public static final int AppCompatTheme_editTextStyle=67;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7198,7 +7198,7 @@ public final class R {
      */
     public static final int AppCompatTheme_homeAsUpIndicator=68;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7210,7 +7210,7 @@ public final class R {
      */
     public static final int AppCompatTheme_imageButtonStyle=69;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7222,7 +7222,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7234,7 +7234,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listDividerAlertDialog=71;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7246,7 +7246,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listMenuViewStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7258,7 +7258,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listPopupWindowStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7271,7 +7271,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemHeight=74;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7284,7 +7284,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7297,7 +7297,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7310,7 +7310,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7323,7 +7323,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7335,7 +7335,7 @@ public final class R {
      */
     public static final int AppCompatTheme_panelBackground=79;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7347,7 +7347,7 @@ public final class R {
      */
     public static final int AppCompatTheme_panelMenuListTheme=80;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7360,7 +7360,7 @@ public final class R {
      */
     public static final int AppCompatTheme_panelMenuListWidth=81;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7372,7 +7372,7 @@ public final class R {
      */
     public static final int AppCompatTheme_popupMenuStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7384,7 +7384,7 @@ public final class R {
      */
     public static final int AppCompatTheme_popupWindowStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7396,7 +7396,7 @@ public final class R {
      */
     public static final int AppCompatTheme_radioButtonStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7408,7 +7408,7 @@ public final class R {
      */
     public static final int AppCompatTheme_ratingBarStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7420,7 +7420,7 @@ public final class R {
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=86;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7432,7 +7432,7 @@ public final class R {
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=87;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7444,7 +7444,7 @@ public final class R {
      */
     public static final int AppCompatTheme_searchViewStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7456,7 +7456,7 @@ public final class R {
      */
     public static final int AppCompatTheme_seekBarStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7468,7 +7468,7 @@ public final class R {
      */
     public static final int AppCompatTheme_selectableItemBackground=90;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7480,7 +7480,7 @@ public final class R {
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7492,7 +7492,7 @@ public final class R {
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7504,7 +7504,7 @@ public final class R {
      */
     public static final int AppCompatTheme_spinnerStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7516,7 +7516,7 @@ public final class R {
      */
     public static final int AppCompatTheme_switchStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7528,7 +7528,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7540,7 +7540,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceListItem=96;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7552,7 +7552,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7564,7 +7564,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=98;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7576,7 +7576,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7588,7 +7588,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7600,7 +7600,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7612,7 +7612,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7627,7 +7627,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=103;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7642,7 +7642,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textColorSearchUrl=104;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7654,7 +7654,7 @@ public final class R {
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7666,7 +7666,7 @@ public final class R {
      */
     public static final int AppCompatTheme_toolbarStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7681,7 +7681,7 @@ public final class R {
      */
     public static final int AppCompatTheme_tooltipForegroundColor=107;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7693,7 +7693,7 @@ public final class R {
      */
     public static final int AppCompatTheme_tooltipFrameBackground=108;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -7703,7 +7703,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowActionBar=109;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -7713,7 +7713,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowActionBarOverlay=110;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -7723,7 +7723,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowActionModeOverlay=111;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7740,7 +7740,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=112;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7757,7 +7757,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7774,7 +7774,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=114;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7791,7 +7791,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=115;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7808,7 +7808,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowMinWidthMajor=116;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7825,7 +7825,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowMinWidthMinor=117;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -7849,7 +7849,7 @@ public final class R {
         0x7f0400ce
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_box}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_box}
      * attribute's value can be found in the {@link #BoxInsetLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7883,7 +7883,7 @@ public final class R {
         0x7f040027
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -7960,7 +7960,7 @@ public final class R {
      */
     public static final int CardView_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#cardBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#cardBackgroundColor}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -7971,7 +7971,7 @@ public final class R {
      */
     public static final int CardView_cardBackgroundColor=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#cardCornerRadius}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#cardCornerRadius}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7984,7 +7984,7 @@ public final class R {
      */
     public static final int CardView_cardCornerRadius=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#cardElevation}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#cardElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7997,7 +7997,7 @@ public final class R {
      */
     public static final int CardView_cardElevation=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#cardMaxElevation}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#cardMaxElevation}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8010,7 +8010,7 @@ public final class R {
      */
     public static final int CardView_cardMaxElevation=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#cardPreventCornerOverlap}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#cardPreventCornerOverlap}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -8020,7 +8020,7 @@ public final class R {
      */
     public static final int CardView_cardPreventCornerOverlap=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#cardUseCompatPadding}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#cardUseCompatPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -8030,7 +8030,7 @@ public final class R {
      */
     public static final int CardView_cardUseCompatPadding=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#contentPadding}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#contentPadding}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8043,7 +8043,7 @@ public final class R {
      */
     public static final int CardView_contentPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#contentPaddingBottom}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#contentPaddingBottom}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8056,7 +8056,7 @@ public final class R {
      */
     public static final int CardView_contentPaddingBottom=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#contentPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#contentPaddingLeft}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8069,7 +8069,7 @@ public final class R {
      */
     public static final int CardView_contentPaddingLeft=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#contentPaddingRight}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#contentPaddingRight}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8082,7 +8082,7 @@ public final class R {
      */
     public static final int CardView_contentPaddingRight=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#contentPaddingTop}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#contentPaddingTop}
      * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8155,7 +8155,7 @@ public final class R {
      */
     public static final int CircledImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#circle_border_cap}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#circle_border_cap}
      * attribute's value can be found in the {@link #CircledImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8173,7 +8173,7 @@ public final class R {
      */
     public static final int CircledImageView_circle_border_cap=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#circle_border_color}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#circle_border_color}
      * attribute's value can be found in the {@link #CircledImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8184,7 +8184,7 @@ public final class R {
      */
     public static final int CircledImageView_circle_border_color=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#circle_border_width}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#circle_border_width}
      * attribute's value can be found in the {@link #CircledImageView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8197,7 +8197,7 @@ public final class R {
      */
     public static final int CircledImageView_circle_border_width=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#circle_color}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#circle_color}
      * attribute's value can be found in the {@link #CircledImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8208,7 +8208,7 @@ public final class R {
      */
     public static final int CircledImageView_circle_color=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#circle_padding}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#circle_padding}
      * attribute's value can be found in the {@link #CircledImageView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8221,7 +8221,7 @@ public final class R {
      */
     public static final int CircledImageView_circle_padding=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#circle_radius}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#circle_radius}
      * attribute's value can be found in the {@link #CircledImageView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8234,7 +8234,7 @@ public final class R {
      */
     public static final int CircledImageView_circle_radius=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#circle_radius_percent}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#circle_radius_percent}
      * attribute's value can be found in the {@link #CircledImageView} array.
      *
      * <p>May be a fractional value, which is a floating point number appended with
@@ -8246,7 +8246,7 @@ public final class R {
      */
     public static final int CircledImageView_circle_radius_percent=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#circle_radius_pressed}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#circle_radius_pressed}
      * attribute's value can be found in the {@link #CircledImageView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8259,7 +8259,7 @@ public final class R {
      */
     public static final int CircledImageView_circle_radius_pressed=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#circle_radius_pressed_percent}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#circle_radius_pressed_percent}
      * attribute's value can be found in the {@link #CircledImageView} array.
      *
      * <p>May be a fractional value, which is a floating point number appended with
@@ -8271,7 +8271,7 @@ public final class R {
      */
     public static final int CircledImageView_circle_radius_pressed_percent=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#image_circle_percentage}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#image_circle_percentage}
      * attribute's value can be found in the {@link #CircledImageView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8284,7 +8284,7 @@ public final class R {
      */
     public static final int CircledImageView_image_circle_percentage=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#image_horizontal_offcenter_percentage}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#image_horizontal_offcenter_percentage}
      * attribute's value can be found in the {@link #CircledImageView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8297,7 +8297,7 @@ public final class R {
      */
     public static final int CircledImageView_image_horizontal_offcenter_percentage=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#image_tint}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#image_tint}
      * attribute's value can be found in the {@link #CircledImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8308,7 +8308,7 @@ public final class R {
      */
     public static final int CircledImageView_image_tint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#shadow_width}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#shadow_width}
      * attribute's value can be found in the {@link #CircledImageView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8321,7 +8321,7 @@ public final class R {
      */
     public static final int CircledImageView_shadow_width=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#square_dimen}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#square_dimen}
      * attribute's value can be found in the {@link #CircledImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8429,7 +8429,7 @@ public final class R {
      */
     public static final int CircularButton_android_stateListAnimator=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#buttonRippleColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#buttonRippleColor}
      * attribute's value can be found in the {@link #CircularButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8444,7 +8444,7 @@ public final class R {
      */
     public static final int CircularButton_buttonRippleColor=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#imageScaleMode}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#imageScaleMode}
      * attribute's value can be found in the {@link #CircularButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8461,7 +8461,7 @@ public final class R {
      */
     public static final int CircularButton_imageScaleMode=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#pressedButtonTranslationZ}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#pressedButtonTranslationZ}
      * attribute's value can be found in the {@link #CircularButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8512,7 +8512,7 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -8577,7 +8577,7 @@ public final class R {
         0x7f040159, 0x7f040165, 0x7f04016c, 0x7f040170
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#backgroundColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#backgroundColor}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8588,7 +8588,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_backgroundColor=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#backgroundDrawable}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#backgroundDrawable}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8600,7 +8600,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_backgroundDrawable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#borderColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#borderColor}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8611,7 +8611,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_borderColor=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#borderDashGap}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#borderDashGap}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8624,7 +8624,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_borderDashGap=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#borderDashWidth}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#borderDashWidth}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8637,7 +8637,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_borderDashWidth=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#borderRadius}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#borderRadius}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8650,7 +8650,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_borderRadius=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#borderStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#borderStyle}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8668,7 +8668,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_borderStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#borderWidth}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#borderWidth}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8681,7 +8681,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_borderWidth=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#highlightColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#highlightColor}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8692,7 +8692,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_highlightColor=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#iconColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#iconColor}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8703,7 +8703,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_iconColor=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#rangedValuePrimaryColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#rangedValuePrimaryColor}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8714,7 +8714,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_rangedValuePrimaryColor=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#rangedValueProgressHidden}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#rangedValueProgressHidden}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -8724,7 +8724,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_rangedValueProgressHidden=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#rangedValueRingWidth}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#rangedValueRingWidth}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8737,7 +8737,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_rangedValueRingWidth=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#rangedValueSecondaryColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#rangedValueSecondaryColor}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8748,7 +8748,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_rangedValueSecondaryColor=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#textColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#textColor}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8759,7 +8759,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_textColor=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#textSize}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#textSize}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8772,7 +8772,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_textSize=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#textTypeface}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#textTypeface}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -8782,7 +8782,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_textTypeface=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#titleColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#titleColor}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8793,7 +8793,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_titleColor=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#titleSize}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#titleSize}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8806,7 +8806,7 @@ public final class R {
      */
     public static final int ComplicationDrawable_titleSize=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#titleTypeface}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#titleTypeface}
      * attribute's value can be found in the {@link #ComplicationDrawable} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -8846,7 +8846,7 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8857,7 +8857,7 @@ public final class R {
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8892,7 +8892,7 @@ public final class R {
         0x7f040179
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#update_interval}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#update_interval}
      * attribute's value can be found in the {@link #DelayedConfirmationView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -8942,7 +8942,7 @@ public final class R {
         0x7f040099
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dotColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dotColor}
      * attribute's value can be found in the {@link #DotsPageIndicator} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8953,7 +8953,7 @@ public final class R {
      */
     public static final int DotsPageIndicator_dotColor=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dotColorSelected}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dotColorSelected}
      * attribute's value can be found in the {@link #DotsPageIndicator} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8964,7 +8964,7 @@ public final class R {
      */
     public static final int DotsPageIndicator_dotColorSelected=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dotFadeInDuration}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dotFadeInDuration}
      * attribute's value can be found in the {@link #DotsPageIndicator} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -8973,7 +8973,7 @@ public final class R {
      */
     public static final int DotsPageIndicator_dotFadeInDuration=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dotFadeOutDelay}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dotFadeOutDelay}
      * attribute's value can be found in the {@link #DotsPageIndicator} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -8982,7 +8982,7 @@ public final class R {
      */
     public static final int DotsPageIndicator_dotFadeOutDelay=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dotFadeOutDuration}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dotFadeOutDuration}
      * attribute's value can be found in the {@link #DotsPageIndicator} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -8991,7 +8991,7 @@ public final class R {
      */
     public static final int DotsPageIndicator_dotFadeOutDuration=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dotFadeWhenIdle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dotFadeWhenIdle}
      * attribute's value can be found in the {@link #DotsPageIndicator} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -9001,7 +9001,7 @@ public final class R {
      */
     public static final int DotsPageIndicator_dotFadeWhenIdle=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dotRadius}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dotRadius}
      * attribute's value can be found in the {@link #DotsPageIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9014,7 +9014,7 @@ public final class R {
      */
     public static final int DotsPageIndicator_dotRadius=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dotRadiusSelected}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dotRadiusSelected}
      * attribute's value can be found in the {@link #DotsPageIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9027,7 +9027,7 @@ public final class R {
      */
     public static final int DotsPageIndicator_dotRadiusSelected=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dotShadowColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dotShadowColor}
      * attribute's value can be found in the {@link #DotsPageIndicator} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -9038,7 +9038,7 @@ public final class R {
      */
     public static final int DotsPageIndicator_dotShadowColor=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dotShadowDx}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dotShadowDx}
      * attribute's value can be found in the {@link #DotsPageIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9051,7 +9051,7 @@ public final class R {
      */
     public static final int DotsPageIndicator_dotShadowDx=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dotShadowDy}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dotShadowDy}
      * attribute's value can be found in the {@link #DotsPageIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9064,7 +9064,7 @@ public final class R {
      */
     public static final int DotsPageIndicator_dotShadowDy=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dotShadowRadius}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dotShadowRadius}
      * attribute's value can be found in the {@link #DotsPageIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9077,7 +9077,7 @@ public final class R {
      */
     public static final int DotsPageIndicator_dotShadowRadius=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dotSpacing}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dotSpacing}
      * attribute's value can be found in the {@link #DotsPageIndicator} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9119,7 +9119,7 @@ public final class R {
         0x7f04009a, 0x7f0400b4, 0x7f040139, 0x7f04015b
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9132,7 +9132,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9145,7 +9145,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9158,7 +9158,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -9169,7 +9169,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9182,7 +9182,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9195,7 +9195,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -9205,7 +9205,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9243,7 +9243,7 @@ public final class R {
         0x7f0400b0, 0x7f0400b1
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -9253,7 +9253,7 @@ public final class R {
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9265,7 +9265,7 @@ public final class R {
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9282,7 +9282,7 @@ public final class R {
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -9299,7 +9299,7 @@ public final class R {
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -9309,7 +9309,7 @@ public final class R {
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -9382,7 +9382,7 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#font}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9394,7 +9394,7 @@ public final class R {
      */
     public static final int FontFamilyFont_font=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9411,7 +9411,7 @@ public final class R {
      */
     public static final int FontFamilyFont_fontStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -9526,7 +9526,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9538,7 +9538,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9551,7 +9551,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -9561,7 +9561,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9744,7 +9744,7 @@ public final class R {
         0x7f040057, 0x7f0400c0, 0x7f0400c1
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#circleCrop}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#circleCrop}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -9754,7 +9754,7 @@ public final class R {
      */
     public static final int LoadingImageView_circleCrop=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#imageAspectRatio}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#imageAspectRatio}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -9763,7 +9763,7 @@ public final class R {
      */
     public static final int LoadingImageView_imageAspectRatio=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#imageAspectRatioAdjust}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#imageAspectRatioAdjust}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10089,7 +10089,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10101,7 +10101,7 @@ public final class R {
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -10111,7 +10111,7 @@ public final class R {
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -10121,7 +10121,7 @@ public final class R {
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10142,7 +10142,7 @@ public final class R {
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -10152,7 +10152,7 @@ public final class R {
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -10163,7 +10163,7 @@ public final class R {
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10184,7 +10184,7 @@ public final class R {
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10205,7 +10205,7 @@ public final class R {
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10225,7 +10225,7 @@ public final class R {
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -10354,7 +10354,7 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -10364,7 +10364,7 @@ public final class R {
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10417,7 +10417,7 @@ public final class R {
         0x7f04010b
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#pageIndicatorDotColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#pageIndicatorDotColor}
      * attribute's value can be found in the {@link #PageIndicatorView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -10428,7 +10428,7 @@ public final class R {
      */
     public static final int PageIndicatorView_pageIndicatorDotColor=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#pageIndicatorDotColorSelected}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#pageIndicatorDotColorSelected}
      * attribute's value can be found in the {@link #PageIndicatorView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -10439,7 +10439,7 @@ public final class R {
      */
     public static final int PageIndicatorView_pageIndicatorDotColorSelected=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#pageIndicatorDotFadeInDuration}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#pageIndicatorDotFadeInDuration}
      * attribute's value can be found in the {@link #PageIndicatorView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -10448,7 +10448,7 @@ public final class R {
      */
     public static final int PageIndicatorView_pageIndicatorDotFadeInDuration=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#pageIndicatorDotFadeOutDelay}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#pageIndicatorDotFadeOutDelay}
      * attribute's value can be found in the {@link #PageIndicatorView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -10457,7 +10457,7 @@ public final class R {
      */
     public static final int PageIndicatorView_pageIndicatorDotFadeOutDelay=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#pageIndicatorDotFadeOutDuration}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#pageIndicatorDotFadeOutDuration}
      * attribute's value can be found in the {@link #PageIndicatorView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -10466,7 +10466,7 @@ public final class R {
      */
     public static final int PageIndicatorView_pageIndicatorDotFadeOutDuration=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#pageIndicatorDotFadeWhenIdle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#pageIndicatorDotFadeWhenIdle}
      * attribute's value can be found in the {@link #PageIndicatorView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -10476,7 +10476,7 @@ public final class R {
      */
     public static final int PageIndicatorView_pageIndicatorDotFadeWhenIdle=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#pageIndicatorDotRadius}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#pageIndicatorDotRadius}
      * attribute's value can be found in the {@link #PageIndicatorView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10489,7 +10489,7 @@ public final class R {
      */
     public static final int PageIndicatorView_pageIndicatorDotRadius=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#pageIndicatorDotRadiusSelected}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#pageIndicatorDotRadiusSelected}
      * attribute's value can be found in the {@link #PageIndicatorView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10502,7 +10502,7 @@ public final class R {
      */
     public static final int PageIndicatorView_pageIndicatorDotRadiusSelected=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#pageIndicatorDotShadowColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#pageIndicatorDotShadowColor}
      * attribute's value can be found in the {@link #PageIndicatorView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -10513,7 +10513,7 @@ public final class R {
      */
     public static final int PageIndicatorView_pageIndicatorDotShadowColor=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#pageIndicatorDotShadowDx}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#pageIndicatorDotShadowDx}
      * attribute's value can be found in the {@link #PageIndicatorView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10526,7 +10526,7 @@ public final class R {
      */
     public static final int PageIndicatorView_pageIndicatorDotShadowDx=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#pageIndicatorDotShadowDy}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#pageIndicatorDotShadowDy}
      * attribute's value can be found in the {@link #PageIndicatorView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10539,7 +10539,7 @@ public final class R {
      */
     public static final int PageIndicatorView_pageIndicatorDotShadowDy=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#pageIndicatorDotShadowRadius}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#pageIndicatorDotShadowRadius}
      * attribute's value can be found in the {@link #PageIndicatorView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10552,7 +10552,7 @@ public final class R {
      */
     public static final int PageIndicatorView_pageIndicatorDotShadowRadius=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#pageIndicatorDotSpacing}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#pageIndicatorDotSpacing}
      * attribute's value can be found in the {@link #PageIndicatorView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10599,7 +10599,7 @@ public final class R {
         0x7f0400dc, 0x7f0400de
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_aspectRatio}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_aspectRatio}
      * attribute's value can be found in the {@link #PercentLayout_Layout} array.
      *
      * <p>May be a fractional value, which is a floating point number appended with
@@ -10611,7 +10611,7 @@ public final class R {
      */
     public static final int PercentLayout_Layout_layout_aspectRatio=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_heightPercent}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_heightPercent}
      * attribute's value can be found in the {@link #PercentLayout_Layout} array.
      *
      * <p>May be a fractional value, which is a floating point number appended with
@@ -10623,7 +10623,7 @@ public final class R {
      */
     public static final int PercentLayout_Layout_layout_heightPercent=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_marginBottomPercent}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_marginBottomPercent}
      * attribute's value can be found in the {@link #PercentLayout_Layout} array.
      *
      * <p>May be a fractional value, which is a floating point number appended with
@@ -10635,7 +10635,7 @@ public final class R {
      */
     public static final int PercentLayout_Layout_layout_marginBottomPercent=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_marginEndPercent}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_marginEndPercent}
      * attribute's value can be found in the {@link #PercentLayout_Layout} array.
      *
      * <p>May be a fractional value, which is a floating point number appended with
@@ -10647,7 +10647,7 @@ public final class R {
      */
     public static final int PercentLayout_Layout_layout_marginEndPercent=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_marginLeftPercent}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_marginLeftPercent}
      * attribute's value can be found in the {@link #PercentLayout_Layout} array.
      *
      * <p>May be a fractional value, which is a floating point number appended with
@@ -10659,7 +10659,7 @@ public final class R {
      */
     public static final int PercentLayout_Layout_layout_marginLeftPercent=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_marginPercent}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_marginPercent}
      * attribute's value can be found in the {@link #PercentLayout_Layout} array.
      *
      * <p>May be a fractional value, which is a floating point number appended with
@@ -10671,7 +10671,7 @@ public final class R {
      */
     public static final int PercentLayout_Layout_layout_marginPercent=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_marginRightPercent}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_marginRightPercent}
      * attribute's value can be found in the {@link #PercentLayout_Layout} array.
      *
      * <p>May be a fractional value, which is a floating point number appended with
@@ -10683,7 +10683,7 @@ public final class R {
      */
     public static final int PercentLayout_Layout_layout_marginRightPercent=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_marginStartPercent}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_marginStartPercent}
      * attribute's value can be found in the {@link #PercentLayout_Layout} array.
      *
      * <p>May be a fractional value, which is a floating point number appended with
@@ -10695,7 +10695,7 @@ public final class R {
      */
     public static final int PercentLayout_Layout_layout_marginStartPercent=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_marginTopPercent}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_marginTopPercent}
      * attribute's value can be found in the {@link #PercentLayout_Layout} array.
      *
      * <p>May be a fractional value, which is a floating point number appended with
@@ -10707,7 +10707,7 @@ public final class R {
      */
     public static final int PercentLayout_Layout_layout_marginTopPercent=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_widthPercent}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_widthPercent}
      * attribute's value can be found in the {@link #PercentLayout_Layout} array.
      *
      * <p>May be a fractional value, which is a floating point number appended with
@@ -10764,7 +10764,7 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -10788,7 +10788,7 @@ public final class R {
         0x7f040140
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -10812,7 +10812,7 @@ public final class R {
         0x7f040072
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#color_sequence}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#color_sequence}
      * attribute's value can be found in the {@link #ProgressSpinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10843,7 +10843,7 @@ public final class R {
         0x7f0400fb, 0x7f0400fe
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10856,7 +10856,7 @@ public final class R {
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10940,7 +10940,7 @@ public final class R {
      */
     public static final int RecyclerView_android_descendantFocusability=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#fastScrollEnabled}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#fastScrollEnabled}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -10950,7 +10950,7 @@ public final class R {
      */
     public static final int RecyclerView_fastScrollEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#fastScrollHorizontalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#fastScrollHorizontalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10962,7 +10962,7 @@ public final class R {
      */
     public static final int RecyclerView_fastScrollHorizontalThumbDrawable=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#fastScrollHorizontalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#fastScrollHorizontalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10974,7 +10974,7 @@ public final class R {
      */
     public static final int RecyclerView_fastScrollHorizontalTrackDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#fastScrollVerticalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#fastScrollVerticalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10986,7 +10986,7 @@ public final class R {
      */
     public static final int RecyclerView_fastScrollVerticalThumbDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#fastScrollVerticalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#fastScrollVerticalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10998,7 +10998,7 @@ public final class R {
      */
     public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layoutManager}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -11008,7 +11008,7 @@ public final class R {
      */
     public static final int RecyclerView_layoutManager=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -11018,7 +11018,7 @@ public final class R {
      */
     public static final int RecyclerView_reverseLayout=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -11027,7 +11027,7 @@ public final class R {
      */
     public static final int RecyclerView_spanCount=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -11197,7 +11197,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11209,7 +11209,7 @@ public final class R {
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11221,7 +11221,7 @@ public final class R {
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -11231,7 +11231,7 @@ public final class R {
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11243,7 +11243,7 @@ public final class R {
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -11253,7 +11253,7 @@ public final class R {
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11265,7 +11265,7 @@ public final class R {
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11277,7 +11277,7 @@ public final class R {
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -11287,7 +11287,7 @@ public final class R {
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11299,7 +11299,7 @@ public final class R {
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11311,7 +11311,7 @@ public final class R {
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11323,7 +11323,7 @@ public final class R {
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11335,7 +11335,7 @@ public final class R {
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11365,7 +11365,7 @@ public final class R {
         0x7f04004a, 0x7f040070, 0x7f040125
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#buttonSize}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#buttonSize}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11387,7 +11387,7 @@ public final class R {
      */
     public static final int SignInButton_buttonSize=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#colorScheme}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#colorScheme}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11409,7 +11409,7 @@ public final class R {
      */
     public static final int SignInButton_colorScheme=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#scopeUris}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#scopeUris}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11508,7 +11508,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11595,7 +11595,7 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -11605,7 +11605,7 @@ public final class R {
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -11615,7 +11615,7 @@ public final class R {
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11628,7 +11628,7 @@ public final class R {
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11641,7 +11641,7 @@ public final class R {
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11653,7 +11653,7 @@ public final class R {
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11666,7 +11666,7 @@ public final class R {
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -11677,7 +11677,7 @@ public final class R {
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11698,7 +11698,7 @@ public final class R {
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11710,7 +11710,7 @@ public final class R {
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -11721,7 +11721,7 @@ public final class R {
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11926,7 +11926,7 @@ public final class R {
      */
     public static final int TextAppearance_android_fontFamily=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -11936,7 +11936,7 @@ public final class R {
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12069,7 +12069,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12086,7 +12086,7 @@ public final class R {
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -12096,7 +12096,7 @@ public final class R {
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12108,7 +12108,7 @@ public final class R {
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12121,7 +12121,7 @@ public final class R {
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12134,7 +12134,7 @@ public final class R {
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12147,7 +12147,7 @@ public final class R {
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12160,7 +12160,7 @@ public final class R {
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12173,7 +12173,7 @@ public final class R {
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12186,7 +12186,7 @@ public final class R {
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12198,7 +12198,7 @@ public final class R {
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -12208,7 +12208,7 @@ public final class R {
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12221,7 +12221,7 @@ public final class R {
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -12231,7 +12231,7 @@ public final class R {
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12243,7 +12243,7 @@ public final class R {
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12255,7 +12255,7 @@ public final class R {
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -12265,7 +12265,7 @@ public final class R {
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12277,7 +12277,7 @@ public final class R {
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -12288,7 +12288,7 @@ public final class R {
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -12298,7 +12298,7 @@ public final class R {
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12311,7 +12311,7 @@ public final class R {
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12324,7 +12324,7 @@ public final class R {
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12337,7 +12337,7 @@ public final class R {
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12350,7 +12350,7 @@ public final class R {
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12363,7 +12363,7 @@ public final class R {
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12376,7 +12376,7 @@ public final class R {
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12388,7 +12388,7 @@ public final class R {
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -12452,7 +12452,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12465,7 +12465,7 @@ public final class R {
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12478,7 +12478,7 @@ public final class R {
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12523,7 +12523,7 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -12534,7 +12534,7 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12625,7 +12625,7 @@ public final class R {
         0x7f040122, 0x7f040124
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#rectLayout}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#rectLayout}
      * attribute's value can be found in the {@link #WatchViewStub} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12637,7 +12637,7 @@ public final class R {
      */
     public static final int WatchViewStub_rectLayout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#roundLayout}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#roundLayout}
      * attribute's value can be found in the {@link #WatchViewStub} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12667,7 +12667,7 @@ public final class R {
         0x7f040021, 0x7f04009d, 0x7f040136
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#action_menu}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#action_menu}
      * attribute's value can be found in the {@link #WearableActionDrawer} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12679,7 +12679,7 @@ public final class R {
      */
     public static final int WearableActionDrawer_action_menu=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#drawer_title}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#drawer_title}
      * attribute's value can be found in the {@link #WearableActionDrawer} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -12689,7 +12689,7 @@ public final class R {
      */
     public static final int WearableActionDrawer_drawer_title=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#show_overflow_in_peek}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#show_overflow_in_peek}
      * attribute's value can be found in the {@link #WearableActionDrawer} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -12719,7 +12719,7 @@ public final class R {
         0x7f0400f6, 0x7f0400f7, 0x7f0400f8, 0x7f040113
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#negativeButtonIcon}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#negativeButtonIcon}
      * attribute's value can be found in the {@link #WearableDialogPreference} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12731,7 +12731,7 @@ public final class R {
      */
     public static final int WearableDialogPreference_negativeButtonIcon=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#neutralButtonIcon}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#neutralButtonIcon}
      * attribute's value can be found in the {@link #WearableDialogPreference} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12743,7 +12743,7 @@ public final class R {
      */
     public static final int WearableDialogPreference_neutralButtonIcon=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#neutralButtonText}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#neutralButtonText}
      * attribute's value can be found in the {@link #WearableDialogPreference} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -12753,7 +12753,7 @@ public final class R {
      */
     public static final int WearableDialogPreference_neutralButtonText=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#positiveButtonIcon}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#positiveButtonIcon}
      * attribute's value can be found in the {@link #WearableDialogPreference} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12781,7 +12781,7 @@ public final class R {
         0x7f04009c, 0x7f04010f
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#drawer_content}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#drawer_content}
      * attribute's value can be found in the {@link #WearableDrawerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12793,7 +12793,7 @@ public final class R {
      */
     public static final int WearableDrawerView_drawer_content=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#peek_view}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#peek_view}
      * attribute's value can be found in the {@link #WearableDrawerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12906,7 +12906,7 @@ public final class R {
      */
     public static final int WearableFrameLayout_android_foregroundTint=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_gravityRound}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_gravityRound}
      * attribute's value can be found in the {@link #WearableFrameLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12935,7 +12935,7 @@ public final class R {
      */
     public static final int WearableFrameLayout_layout_gravityRound=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_heightRound}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_heightRound}
      * attribute's value can be found in the {@link #WearableFrameLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12948,7 +12948,7 @@ public final class R {
      */
     public static final int WearableFrameLayout_layout_heightRound=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_marginBottomRound}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_marginBottomRound}
      * attribute's value can be found in the {@link #WearableFrameLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12961,7 +12961,7 @@ public final class R {
      */
     public static final int WearableFrameLayout_layout_marginBottomRound=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_marginLeftRound}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_marginLeftRound}
      * attribute's value can be found in the {@link #WearableFrameLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12974,7 +12974,7 @@ public final class R {
      */
     public static final int WearableFrameLayout_layout_marginLeftRound=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_marginRightRound}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_marginRightRound}
      * attribute's value can be found in the {@link #WearableFrameLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12987,7 +12987,7 @@ public final class R {
      */
     public static final int WearableFrameLayout_layout_marginRightRound=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_marginRound}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_marginRound}
      * attribute's value can be found in the {@link #WearableFrameLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13000,7 +13000,7 @@ public final class R {
      */
     public static final int WearableFrameLayout_layout_marginRound=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_marginTopRound}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_marginTopRound}
      * attribute's value can be found in the {@link #WearableFrameLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13013,7 +13013,7 @@ public final class R {
      */
     public static final int WearableFrameLayout_layout_marginTopRound=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#layout_widthRound}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#layout_widthRound}
      * attribute's value can be found in the {@link #WearableFrameLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13040,7 +13040,7 @@ public final class R {
         0x7f0400f5
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#navigation_style}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#navigation_style}
      * attribute's value can be found in the {@link #WearableNavigationDrawer} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13075,7 +13075,7 @@ public final class R {
         0x7f04003a, 0x7f040061, 0x7f040126
       };
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#bezel_width}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#bezel_width}
      * attribute's value can be found in the {@link #WearableRecyclerView} array.
      *
      * <p>May be a fractional value, which is a floating point number appended with
@@ -13087,7 +13087,7 @@ public final class R {
      */
     public static final int WearableRecyclerView_bezel_width=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#circular_scrolling_gesture_enabled}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#circular_scrolling_gesture_enabled}
      * attribute's value can be found in the {@link #WearableRecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -13097,7 +13097,7 @@ public final class R {
      */
     public static final int WearableRecyclerView_circular_scrolling_gesture_enabled=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.android.wearable.watchface.test.R.attr#scroll_degrees_per_screen}
+     * <p>This symbol is the offset where the {@link com.freezey.android.wearable.freezeyface.test.R.attr#scroll_degrees_per_screen}
      * attribute's value can be found in the {@link #WearableRecyclerView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".

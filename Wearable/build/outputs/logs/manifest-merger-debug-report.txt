@@ -154,7 +154,7 @@ MERGED from [com.google.android.support:wearable:2.2.0] /Users/jordan/.gradle/ca
 		ADDED from /Users/jordan/StudioProjects/android-WatchFace/Wearable/src/main/AndroidManifest.xml:45:13-37
 	android:name
 		ADDED from /Users/jordan/StudioProjects/android-WatchFace/Wearable/src/main/AndroidManifest.xml:44:13-55
-service#com.example.android.wearable.watchface.watchface.AnalogComplicationWatchFaceService
+service#com.example.android.wearable.watchface.watchface.FreezeyWatchFaceService
 ADDED from /Users/jordan/StudioProjects/android-WatchFace/Wearable/src/main/AndroidManifest.xml:48:9-71:19
 	android:enabled
 		ADDED from /Users/jordan/StudioProjects/android-WatchFace/Wearable/src/main/AndroidManifest.xml:50:13-35
@@ -163,7 +163,7 @@ ADDED from /Users/jordan/StudioProjects/android-WatchFace/Wearable/src/main/Andr
 	android:permission
 		ADDED from /Users/jordan/StudioProjects/android-WatchFace/Wearable/src/main/AndroidManifest.xml:52:13-67
 	android:name
-		ADDED from /Users/jordan/StudioProjects/android-WatchFace/Wearable/src/main/AndroidManifest.xml:49:13-73
+		ADDED from /Users/jordan/StudioProjects/android-WatchFace/Wearable/src/main/AndroidManifest.xml:49:13-62
 meta-data#android.service.wallpaper
 ADDED from /Users/jordan/StudioProjects/android-WatchFace/Wearable/src/main/AndroidManifest.xml:53:13-55:53
 	android:resource

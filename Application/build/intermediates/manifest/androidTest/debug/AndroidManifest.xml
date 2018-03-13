@@ -12,5 +12,5 @@
                      android:targetPackage="com.example.android.wearable.watchface"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.example.android.wearable.watchface"/>
+                     android:label="Tests for com.freezey.android.wearable.freezeyface"/>
 </manifest>
